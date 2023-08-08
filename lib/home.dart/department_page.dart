@@ -14,7 +14,7 @@ class Department_Page extends StatefulWidget {
 class _Department_PageState extends State<Department_Page> {
   final List _posts = [
     'post 1',
-    'post 2',
+    
     
   ];
   @override

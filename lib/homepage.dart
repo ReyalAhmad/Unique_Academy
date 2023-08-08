@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 import 'package:academic_app/home.dart/about.dart';
 import 'package:academic_app/home.dart/department_page.dart';
