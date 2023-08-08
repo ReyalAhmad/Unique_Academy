@@ -34,7 +34,7 @@ class _Signin_pageState extends State<Signin_page> {
                 Text(
                   'Welcome to Our Academy',
                   style: TextStyle(
-                    fontSize: 16,
+                    fontSize: 20,fontWeight: FontWeight.bold
                   ),
                 ),
                 SizedBox(height: 40),

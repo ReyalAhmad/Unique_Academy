@@ -1,9 +1,11 @@
 import 'package:academic_app/firstpage/sign_in.dart';
 import 'package:academic_app/firstpage/splash_screen.dart';
+import 'package:academic_app/home.dart/about.dart';
 import 'package:academic_app/home.dart/department_page.dart';
 import 'package:academic_app/home.dart/student_page.dart';
 import 'package:academic_app/home.dart/teacher_page.dart';
 import 'package:academic_app/homepage.dart';
+import 'package:academic_app/teacher_profile/teacher_profile.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 void main() async{

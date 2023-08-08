@@ -27,8 +27,9 @@ class _SplashScreenState extends State<SplashScreen> {
     );
     return Scaffold(
       body: Center(
-        child: CircularProgressIndicator(
-          color: Colors.deepPurpleAccent[700],
+        child: Icon(
+          Icons.auto_stories,
+          size: 100,
         ),
       ),
     );

@@ -25,8 +25,13 @@ class _SquareState extends State<Square> {
                 width: MediaQuery.of(context).size.width * 0.70,
               ),
             ],
-             title: Text(
-                 '🌟 Admission Notice: Join Our Academy Today! 🌟\n\n\n📚 Discover Excellence, Ignite Your Potential! 📚\n\n Are you ready to embark on an extraordinary journey of learning, growth, and achievement? Look no further! We are thrilled to announce that admissions are now open at Unique Academy, where brilliance meets opportunity.\n\n Why Choose Unique Academy?\n\n 🔥Exceptional Faculty.\n  🌐Comprehensive   Curriculum.\n 🌈 Holistic Development. \n 🌍 Global Perspective. \n 🌍 Global Perspective. \n 🎓 Wide Range of Programs \n\n Admission Details:\n\n\n 📅 Application Deadline: 25-09-2025\n📍 Location: Sonargaon,Narayanganj \n\n\n 🌟 Ignite Your Potential with Unique Academy ! 🌟 ',style: TextStyle(color: Colors.black,fontSize: 20,fontWeight: FontWeight.bold),),
+            title: Text(
+              '🌟 Admission Notice: Join Our Academy Today! 🌟\n\n\n📚 Discover Excellence, Ignite Your Potential! 📚\n\n Are you ready to embark on an extraordinary journey of learning, growth, and achievement? Look no further! We are thrilled to announce that admissions are now open at Unique Academy, where brilliance meets opportunity.\n\n Why Choose Unique Academy?\n\n 🔥Exceptional Faculty.\n  🌐Comprehensive   Curriculum.\n 🌈 Holistic Development. \n 🌍 Global Perspective. \n 🌍 Global Perspective. \n 🎓 Wide Range of Programs \n\n Admission Details:\n\n\n 📅 Application Deadline: 25-09-2025\n📍 Location: Sonargaon,Narayanganj \n\n\n 🌟 Ignite Your Potential with Unique Academy ! 🌟 ',
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ),
           ),
         );
       },
@@ -44,7 +49,9 @@ class _SquareState extends State<Square> {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(25),
           ),
-          child: Image.asset('lib/images/notice.jpg', fit: BoxFit.cover,
+          child: Image.asset(
+            'lib/images/notice.jpg',
+            fit: BoxFit.cover,
           ),
         ),
         onTap: () {
